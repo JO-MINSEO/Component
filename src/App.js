@@ -1,24 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import Card from './Card';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div>제목</div>
+      <div>한 줄 요약</div>
+      <Card subject="실리카겔" discription="kyo야 사랑을 해봤니"/>
+      <Card subject="잔니비" discription="초록을 거머쥔 우리는 여름으로"/>
+      <Card subject="검정치마" discription="난 너랑 있는게 제일 좋아"/>
+    </>
   );
 }
 
